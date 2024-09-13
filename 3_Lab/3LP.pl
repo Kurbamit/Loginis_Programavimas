@@ -87,6 +87,6 @@ skaicius_i_lista(Num,List):-
     prideti_prie_galo(Temp_List, [LastDigit], List).
 
 prideti_prie_galo([], X, X).
-%Pirmas kintamasis - prad. sąrašas, antras - pridedamas sąrašas, trečias - rezultatas.
+%Pirmas kintamasis - pradinis sąrašas, antras - pridedamas sąrašas, trečias - rezultatas.
 prideti_prie_galo([H|T1], X, [H|T2]) :- 
     prideti_prie_galo(T1, X, T2).
