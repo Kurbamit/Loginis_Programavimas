@@ -23,8 +23,7 @@ kelione(palanga, vilnius, 260) - true
 kelione(palanga, vilnius, Atstumas) - Atstumas = 370 ; Atstumas = 260 ; Atstumas = 300 ; Atstumas = 310;
 */
 kelione(Miestas1, Miestas2, Atstumas) :- 
-    kelias(Miestas1, Miestas2, Atstumas),
-    !.
+    kelias(Miestas1, Miestas2, Atstumas).
 kelione(Miestas1, Miestas2, Atstumas) :-
     kelias(Miestas1, MiestasTemp, Atstumas1),
     kelione(MiestasTemp, Miestas2, Atstumas2),
