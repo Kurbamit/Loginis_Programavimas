@@ -10,7 +10,7 @@ kelias(telsiai, siauliai, 70).
 kelias(siauliai, panevezys, 80).
 kelias(panevezys, vilnius, 140).
 kelias(klaipeda, vilnius, 310).
-kelias(taurage, kaunas, 130).
+kelias(taurage, kaunas, 170).
 kelias(kaunas, vilnius, 100).
 
 /* 
