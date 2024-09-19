@@ -16,11 +16,11 @@ kelias(kaunas, vilnius, 100).
 /* 
 1.2 Apibrėžkite predikatą „galima nuvažiuoti iš miesto X į miestą Y“: nuvažiavus lygiai L kilometrų.
 Testai:
-kelione(palanga, klaipeda, 60) - true
-kelione(palanga, vilnius, 500) - false
-kelione(palanga, vilnius, 370) - true
-kelione(palanga, vilnius, 260) - true
-kelione(palanga, vilnius, Atstumas) - Atstumas = 370 ; Atstumas = 300 ; Atstumas = 300 ; Atstumas = 310;
+kelione(palanga, klaipeda, 60). - true
+kelione(palanga, vilnius, 500). - false
+kelione(palanga, vilnius, 370). - true
+kelione(palanga, vilnius, 260). - true
+kelione(palanga, vilnius, Atstumas). - Atstumas = 370 ; Atstumas = 300 ; Atstumas = 300 ; Atstumas = 310;
 */
 kelione(Miestas1, Miestas2, Atstumas) :- 
     kelias(Miestas1, Miestas2, Atstumas).
@@ -33,10 +33,10 @@ kelione(Miestas1, Miestas2, Atstumas) :-
 4.1 Duotas natūrinis skaičius N. Naudodami rekursyvųjį algoritmą, raskite N-ąjį Fibonačio skaičių.
 fibonacci(N, Fib).
 Testai:
-fibbonaci(0, Fib) - Fib = 0
-fibbonaci(-1, Fib) - false
-fibbonaci(1, Fib) - Fib = 1
-fibbonaci(10, Fib) - Fib = 55
+fibbonaci(0, Fib). - Fib = 0
+fibbonaci(-1, Fib). - false
+fibbonaci(1, Fib). - Fib = 1
+fibbonaci(10, Fib). - Fib = 55
 */
 fibonacci(0, 0) :- !.
 fibonacci(1, 1) :- !.

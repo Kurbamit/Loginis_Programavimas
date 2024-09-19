@@ -4,9 +4,9 @@
 /*
 1.4 tr_suma(Sar,Sum) - teisingas, kai duotame sąraše Sar galima rasti tris iš eilės einančius skaičius, kurių suma lygi Sum. 
 Testai:
-tr_suma([1,4,-2,13,6],17) - true
-tr_suma([1,4,-2,13,6],18) - false
-tr_suma([1,4,-2,13,6],Sum) - Sum = 3 ; Sum = 15 ; Sum = 17 ;
+tr_suma([1,4,-2,13,6],17). - true
+tr_suma([1,4,-2,13,6],18). - false
+tr_suma([1,4,-2,13,6],Sum). - Sum = 3 ; Sum = 15 ; Sum = 17 ;
 */
 
 tr_suma([A, B, C | _], Sum) :-
@@ -34,11 +34,11 @@ pirmieji([H|T], K, [H|R]) :-
 /*
 3.1 ieina(S,R) - teisingas, kai visi duoto sąrašo S elementai įeina į sąrašą R.
 Testai:
-ieina([1, 4], [3,2,4,1,5]) - true
-ieina([1, 9], [3,2,4,1,5]) - false
-ieina([], [3,2,4,1,5]) - true
-ieina([1, 4], []) - false
-ieina([], []) - true
+ieina([1, 4], [3,2,4,1,5]). - true
+ieina([1, 9], [3,2,4,1,5]). - false
+ieina([], [3,2,4,1,5]). - true
+ieina([1, 4], []). - false
+ieina([], []). - true
 */
 ieina([], _).
 
