@@ -7,3 +7,5 @@ Pirmojo laboratorinio darbo [užduotis](https://klevas.mif.vu.lt/~julius/2024Rud
 Antrojo laboratorinio darbo [užduotis](https://klevas.mif.vu.lt/~julius/2024Rud/LogProg/Uzduotys/Uzduotis2.html).
 
 Trečiojo laboratorinio darbo [užduotis](https://klevas.mif.vu.lt/~julius/2024Rud/LogProg/Uzduotys/Uzduotis3.html).
+
+Ketvirtojo laboratorinio darbo [užduotis](https://klevas.mif.vu.lt/~julius/2024Rud/LogProg/Uzduotys/Uzduotis4.html).
