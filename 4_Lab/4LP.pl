@@ -28,8 +28,14 @@ start(C1, C2, C3, R) :-
     log([((C1, 0, 0), 'Start:')|Route]).
 
 /* Solve mechanism */
+/* 
+State (current levels) - tuple (X, Y, Z)
+Visited - to avoid cycles.
+Capacities - represents maximum capacities.
+*/
+/* Base case */
 solve(Goal, _, _, Goal, [(Goal, 'Solved')]).
-
+/* Recursive call */
 solve(State, Visited, Capacities, Goal, [(NextState, Action)|Route]) :-
     pour(State, NextState, Capacities, Action),
     \+ member(NextState, Visited),
