@@ -1,7 +1,7 @@
 
 /* Dominykas Černovas 3 kursas, 3 grupė
 
-1.Vandens perpylimo uždavinys.
+1.1. Vandens perpylimo uždavinys.
 Duotos trijų indų talpos, kurios visos yra skirtingos. 
 Pirmasis indas pilnas vandens, kiti du tušti. 
 Iš vieno indo į kitą galima perpilti lygiai tiek vandens, 
